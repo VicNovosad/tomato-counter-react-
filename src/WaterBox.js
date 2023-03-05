@@ -15,7 +15,7 @@ export default function TomatoBox({ day, selectedDay, setSelectedDay, allDaysTom
                 // style={selectedDay === day ? {color: '#06cfa4', fontSize: '24px'} : {}}
             >{day}</h3>
             <div className="tomato-day-box">
-                {!allDaysTomatoes[day] ? 'No tomatoes yet' : tomatoDivs}
+                {!allDaysTomatoes[day] ? 'No water this day yet' : tomatoDivs}
             </div>
         </div>
     );
